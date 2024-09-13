@@ -1,0 +1,23 @@
+{
+  "@context": [
+    {
+    "@protected": true,
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "FileCredentials": {
+            "@context": {
+            "@propagate": true,
+            "@protected": true,
+            "polygon-vocab": "https://raw.githubusercontent.com/bethelplatform/Bethel-Schema-FileCredential/main/file.md#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "hash": {
+            "@id": "polygon-vocab:hash",
+            "@type": "xsd:string"
+          }
+        },
+        "@id": "https://raw.githubusercontent.com/bethelplatform/Bethel-Schema-FileCredential/main/file-v3.json-ld#FileCredentials"
+      }
+    }
+  ]
+}
